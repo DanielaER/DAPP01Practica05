@@ -12,7 +12,7 @@ import java.util.Optional;
 import java.util.logging.Logger;
 
 @RestController
-@RequestMapping("api/v1/employees")
+@RequestMapping("employees")
 public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
